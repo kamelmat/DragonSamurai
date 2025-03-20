@@ -107,7 +107,7 @@ export class GameScene extends Phaser.Scene {
         }
 
         // Load enemy spritesheets with correct capitalization
-        const enemyTypes = ['Warrior', 'spearman', 'archer'];
+        const enemyTypes = ['Warrior', 'Spearman', 'Archer'];
         enemyTypes.forEach(type => {
             const basePath = `assets/Skeleton_${type}/`;
             
